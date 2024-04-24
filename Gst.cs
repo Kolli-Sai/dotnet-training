@@ -8,6 +8,7 @@ public class Gst
     public decimal StateGoodsServiceTax { get; set; }
     public decimal IntegratedGoodsServiceTax { get; set; }
 
+    // cgst & sgst will be 9% transactions within the state 
     public void CaluclateIntraStateTransactions(decimal price)
     {
         ProductPrice = price;
@@ -16,6 +17,7 @@ public class Gst
         ProductPrice += CentralGoodsServiceTax + StateGoodsServiceTax;
     }
 
+    // igst will be 18% for transactions outside the state 
     public void CaluclateInterStateTransaction(decimal price)
     {
         ProductPrice = price;
