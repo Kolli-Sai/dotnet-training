@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GSTCaluclationProgram")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01e2a704b4641d866f5f86b7b0f70886f1a26b0b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a66df09b1e632f065256cce553491fd4df08c0de")]
 [assembly: System.Reflection.AssemblyProductAttribute("GSTCaluclationProgram")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GSTCaluclationProgram")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
