@@ -6,6 +6,7 @@ internal class DoOperations
     DummyBank dummyBank = new DummyBank();
     public void DoCreateNewAccount()
     {
+        var id = Guid.NewGuid().ToString();
         string accountHolderName = Utility.ReadStringFromConsole("Enter Account Holder Name : ");
 
         Account accountFound = dummyBank.GetAccount(accountHolderName);
@@ -34,6 +35,7 @@ internal class DoOperations
         {
             SavingsAccount sa = new SavingsAccount
             {
+                AccountNumber = id,
                 AccountHolderName = accountHolderName,
                 Balance = initialBalance,
                 BankAccountType = accountType
@@ -61,9 +63,9 @@ internal class DoOperations
 
     public void DoWithdraw()
     {
-        string accountHolderName = Utility.ReadStringFromConsole("Enter Account Holder Name ");
+        string accountNumber = Utility.ReadStringFromConsole("Enter Account Number :  ");
 
-        Account accountFound = dummyBank.GetAccount(accountHolderName);
+        Account accountFound = dummyBank.GetAccount(accountNumber);
 
         if (accountFound != null)
         {
@@ -88,9 +90,9 @@ internal class DoOperations
 
     public void DoDeposit()
     {
-        string accountHolderName = Utility.ReadStringFromConsole("Enter Account Holder Name ");
+        string accountNumber = Utility.ReadStringFromConsole("Enter Account Number :  ");
 
-        Account accountFound = dummyBank.GetAccount(accountHolderName);
+        Account accountFound = dummyBank.GetAccount(accountNumber);
 
         if (accountFound != null)
         {
@@ -113,4 +115,30 @@ internal class DoOperations
             return;
         }
     }
+
+    public void DoPrint(){
+        List<Account>  accounts = dummyBank.GetAccounts();
+        foreach (Account account in accounts){
+            System.Console.WriteLine($"AccountNumber : {account.AccountNumber}");
+            System.Console.WriteLine($"AccountName : {account.AccountHolderName}");
+        }
+    }
+
+    public void DoCheckBalance()
+    {
+        string accountNumber = Utility.ReadStringFromConsole("Enter Account Number : ");
+
+        Account accountFound = dummyBank.GetAccount(accountNumber);
+
+        if(accountFound != null)
+        {
+            Console.WriteLine($"Account Number : {accountFound.AccountNumber}");
+            Console.WriteLine($"Current Balance : {accountFound.Balance}");
+        }
+        else
+        {
+            Console.WriteLine("Account Not Found!");
+        }
+    }
+
 }

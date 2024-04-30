@@ -1,7 +1,8 @@
 ﻿namespace Bank;
 
 internal class SavingsAccount : Account
-{
+{   
+    
     public int transactionsCount { get; set; } = 0;
     public override void Deposit(decimal amount)
     {

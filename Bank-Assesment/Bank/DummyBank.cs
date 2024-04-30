@@ -9,15 +9,19 @@ internal class DummyBank
         accounts.Add(newAccount);
     }
 
-    public Account GetAccount(string accountName)
+    public Account GetAccount(string accountNumber)
     {
         foreach (var account in accounts)
         {
-            if(account.AccountHolderName == accountName)
+            if(account.AccountNumber == accountNumber)
             {
                 return account;
             }
         }
         return null;
+    }
+
+    public List<Account> GetAccounts(){
+        return accounts;
     }
 }

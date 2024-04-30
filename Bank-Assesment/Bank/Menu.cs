@@ -5,6 +5,8 @@ public enum MenuOptions
     NewAccount,
     Wthdraw,
     Deposit,
+    CheckBalance,
+    Print,
     Exit
 }
 internal class Menu
@@ -44,6 +46,12 @@ internal class Menu
                     break;
                 case MenuOptions.Deposit:
                     doOperations.DoDeposit();
+                    break;
+                case MenuOptions.CheckBalance:
+                    doOperations.DoCheckBalance();
+                    break;
+                case MenuOptions.Print:
+                    doOperations.DoPrint();
                     break;
                 case MenuOptions.Exit:
                     break;
