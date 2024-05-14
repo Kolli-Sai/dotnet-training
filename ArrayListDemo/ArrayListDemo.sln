@@ -1,25 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.5.002.0
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayListDemo", "ArrayListDemo.csproj", "{329B0673-9B36-4AA1-BEE8-D4B87A993963}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayListDemo", "ArrayListDemo\ArrayListDemo.csproj", "{0BF2FF8C-AB9C-4153-8FFF-BACC05FB4D7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{329B0673-9B36-4AA1-BEE8-D4B87A993963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{329B0673-9B36-4AA1-BEE8-D4B87A993963}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{329B0673-9B36-4AA1-BEE8-D4B87A993963}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{329B0673-9B36-4AA1-BEE8-D4B87A993963}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {24555B05-637F-4F25-9809-1E3294E4ACC1}
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BF2FF8C-AB9C-4153-8FFF-BACC05FB4D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF2FF8C-AB9C-4153-8FFF-BACC05FB4D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF2FF8C-AB9C-4153-8FFF-BACC05FB4D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF2FF8C-AB9C-4153-8FFF-BACC05FB4D7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
