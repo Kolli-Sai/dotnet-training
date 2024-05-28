@@ -1,0 +1,9 @@
+.vs/
+Authentication/bin/
+Authentication/obj/
+
+Authentication.Core/bin/
+Authentication.Core/obj/
+
+Authentication.Infrastructure/bin/
+Authentication.Infrastructure/obj/

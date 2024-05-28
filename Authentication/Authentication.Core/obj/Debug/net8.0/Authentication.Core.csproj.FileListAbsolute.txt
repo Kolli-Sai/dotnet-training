@@ -1,0 +1,12 @@
+C:\Users\QualMinds\Desktop\dotnet-training\Authentication\Authentication.Core\bin\Debug\net8.0\Authentication.Core.deps.json
+C:\Users\QualMinds\Desktop\dotnet-training\Authentication\Authentication.Core\bin\Debug\net8.0\Authentication.Core.dll
+C:\Users\QualMinds\Desktop\dotnet-training\Authentication\Authentication.Core\bin\Debug\net8.0\Authentication.Core.pdb
+C:\Users\QualMinds\Desktop\dotnet-training\Authentication\Authentication.Core\obj\Debug\net8.0\Authentication.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\QualMinds\Desktop\dotnet-training\Authentication\Authentication.Core\obj\Debug\net8.0\Authentication.Core.AssemblyInfoInputs.cache
+C:\Users\QualMinds\Desktop\dotnet-training\Authentication\Authentication.Core\obj\Debug\net8.0\Authentication.Core.AssemblyInfo.cs
+C:\Users\QualMinds\Desktop\dotnet-training\Authentication\Authentication.Core\obj\Debug\net8.0\Authentication.Core.csproj.CoreCompileInputs.cache
+C:\Users\QualMinds\Desktop\dotnet-training\Authentication\Authentication.Core\obj\Debug\net8.0\Authentication.Core.sourcelink.json
+C:\Users\QualMinds\Desktop\dotnet-training\Authentication\Authentication.Core\obj\Debug\net8.0\Authentication.Core.dll
+C:\Users\QualMinds\Desktop\dotnet-training\Authentication\Authentication.Core\obj\Debug\net8.0\refint\Authentication.Core.dll
+C:\Users\QualMinds\Desktop\dotnet-training\Authentication\Authentication.Core\obj\Debug\net8.0\Authentication.Core.pdb
+C:\Users\QualMinds\Desktop\dotnet-training\Authentication\Authentication.Core\obj\Debug\net8.0\ref\Authentication.Core.dll
